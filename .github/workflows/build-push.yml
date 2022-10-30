@@ -27,4 +27,4 @@ jobs:
           context: "."
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/keymanager-ui:${{ github.event.inputs.version }}
+          tags: ghcr.io/${{ github.repository_owner }}/dsimog-web:${{ github.event.inputs.version }}
